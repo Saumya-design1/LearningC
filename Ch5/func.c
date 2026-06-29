@@ -116,6 +116,7 @@ int power(int n){
 
 //----------------------------------------------------------------------
 
+/*
 #include<math.h>
 
 float square(float side);
@@ -157,3 +158,53 @@ float rect(float l, float b){
     float a = l*b;
     printf("The area of rectangle is %f \n", a);
 }
+*/
+
+//---------------------------------------------------------------
+
+/*
+float CtoF(int n);
+
+int main(){
+    float n;
+    printf("ENter the temperature in celcius:");
+    scanf("%f", &n);
+    
+    float temp = CtoF(n);
+    printf("The above value in fahrenheit is: %f", temp);
+    return 0;
+}
+
+float CtoF(int n){
+    return ((n*1.8)+32);
+}
+*/
+
+//--------------------------------------------------------------------
+
+/*
+float percentage(float m1, float m2, float m3);
+
+int main(){
+    float m1;
+    printf("Enter the marks in science:");
+    scanf("%f", &m1);
+    float m2;
+    printf("Enter the marks in maths:");
+    scanf("%f", &m2);
+    float m3;
+    printf("Enter the marks in sanskrit:");
+    scanf("%f", &m3);
+
+    printf("Your percentage is: %f", percentage(m1,m2,m3));
+
+    return 0;
+}
+
+float percentage(float m1,float m2, float m3){
+    return (((m1+m2+m3)/300)*100);
+}
+*/
+
+//---------------------------------------------------------------------
+
